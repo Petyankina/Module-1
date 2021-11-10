@@ -1,0 +1,18 @@
+let x;
+
+switch(typeof x){
+case 'number':
+    console.log(x + ' - Число');
+break;
+
+case 'string':
+    console.log(x + ' - Строка');
+break;
+
+case 'boolen':
+    console.log(x + ' - Логический тип');
+break;
+
+default:
+    console.log( x + ' - Тип не определен');
+}
